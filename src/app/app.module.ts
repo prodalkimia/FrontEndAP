@@ -6,6 +6,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { APLogoComponent } from './components/aplogo/aplogo.component';
 import { BanerComponent } from './components/baner/baner.component';
 import { AboutComponent } from './components/about/about.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { AboutComponent } from './components/about/about.component';
     HeaderComponent,
     APLogoComponent,
     BanerComponent,
-    AboutComponent
+    AboutComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule
